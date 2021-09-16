@@ -1,10 +1,19 @@
+body{
+  background-color: #db5f25;
+}
+
+/* HEADER Y TITULOS*/
+header{
+  background-color: grey;
+  width: 100%;
+  min-height:65px;
+  height: auto;
+
+}
+
 #tituloP{
   text-decoration: underline;
   text-align: center;
-}
-
-body{
-  background-color: #db5f25;
 }
 
 .titulo{
@@ -12,21 +21,97 @@ body{
   font-size: 25px;
 }
 
+/*MAIN Y SUS PARTES*/
+main{
+  background-color: #43eb34;
+  display: flex;
+  flex-direction: row;
+}
+
 .parrafo{
-  width: 80%;
-  text-align: left;
-  float: right;
-  min-width: 50%;
   font-size: 20px;
 }
 
 .imagen{
-  width: 18%;
-  height: auto;
-  border: 1px solid black;
+  padding: 1%;
+}
+
+/* NAV*/
+nav{
+  background-color: #edc132;
+}
+nav a{
+  padding: 2px;
+  font-size: 20px;
+}
+
+/*PRIMER SECTION Y PRIMER ASIDE*/
+.sec1{
+  background-color: #6e460b;
+  float: left;
+  width: 50%;
+  height: 450px;
+}
+
+.asi1{
+  background-color: #6e460b;
+  width: 49%;
+  float: left;
+  height: 450px;
+  overflow: scroll;
 }
 
 p, li{
   color: #202745;
   text-align: left;
+}
+
+/* SEGUNDO SECTION  Y SEGUNDO ASIDE*/
+.sec2{
+  background-color: tomato;
+  width: 50%;
+  float: left;
+  height: 600px;
+  overflow: scroll;
+}
+
+.asi2{
+  background-color: tomato;
+  width: 49%;
+  float: left;
+  height: 600px;
+}
+
+aside iframe, section iframe{
+  height: 400px;
+  width: 85%;
+  overflow: scroll;
+}
+
+audio{
+  max-width: 200px;
+}
+
+/* FOOTER Y SUS PARTES*/
+footer{
+  background-color: grey;
+  clear: both;
+}
+
+footer img{
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+/* ICONO DE WASAP*/
+.wasap{
+  position: fixed;
+  top: 85%;
+  right: 1%;
+}
+
+.wasap img{
+  width: 50px;
+  height: 50px;
 }
