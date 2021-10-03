@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "delight candles";
+  src: url("../fuentes/Delight Candles .ttf")
+  format("truetype");
+}
+
 body{
   background-color: #db5f25;
 }
@@ -7,7 +13,7 @@ header{
   background-color: black;
   color: #47d15e;
   width: 100%;
-  min-height:65px;
+  min-height: 10vh;
   height: auto;
   transition: background-color 1s 0s,color 1s 0s;
 }
@@ -24,7 +30,7 @@ header:hover{
 
 .titulo{
   text-decoration: underline;
-  font-size: 25px;
+  font-size: 1.3em;
 }
 
 /*MAIN Y SUS PARTES*/
@@ -35,7 +41,8 @@ main{
 }
 
 .parrafo{
-  font-size: 20px;
+  font-size: 1.2em;
+  font-family: "delight candles";
 }
 
 .imagen{
@@ -54,7 +61,7 @@ main{
 nav{
   background-color: #edc132;
   padding: 2px;
-  font-size: 20px;
+  font-size: 1.3em;
 }
 
 nav ul {
@@ -79,14 +86,16 @@ nav ul li ul li {/*ESTILO DE LA LISTA DE ENLACES*/
   background-color: #6e460b;
   float: left;
   width: 50%;
-  height: 450px;
+  height: 72vh;
+  font-family: 'Teko', sans-serif;
 }
 
 .asi1{
   background-color: #6e460b;
   width: 49%;
   float: left;
-  height: 450px;
+  height: 72vh;
+  font-family: 'Teko', sans-serif;
   overflow: scroll;
 }
 
@@ -100,7 +109,7 @@ p, li{
   background-color: tomato;
   width: 50%;
   float: left;
-  height: 600px;
+  height: 96vh;
   overflow: scroll;
 }
 
@@ -108,17 +117,17 @@ p, li{
   background-color: tomato;
   width: 49%;
   float: left;
-  height: 600px;
+  height: 96vh;
 }
 
 aside iframe, section iframe{
-  height: 400px;
+  height: 64vh;
   width: 85%;
   overflow: scroll;
 }
 
 audio{
-  max-width: 200px;
+  max-width: 15vw;
 }
 
 /* FOOTER Y SUS PARTES*/
@@ -128,8 +137,8 @@ footer{
 }
 
 footer img{
-  width: 50px;
-  height: 50px;
+  width: 8vh;
+  height: 4vw;
   padding: 5px;
 }
 
@@ -141,8 +150,8 @@ footer img{
 }
 
 .wasap img{
-  width: 50px;
-  height: 50px;
+  width: 8vh;
+  height: 4vw;
 }
 
 .wasap img:hover{
@@ -152,7 +161,7 @@ footer img{
 
 /* ENLACES */
 nav a:hover, nav a h3:hover{
-  font-size: 23px;
+  font-size: 1.22em;
   background-color: #348feb;
 }
 

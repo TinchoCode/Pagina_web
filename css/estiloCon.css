@@ -7,7 +7,7 @@ header{
   background-color: black;
   color: #47d15e;
   width: 100%;
-  min-height:65px;
+  min-height: 10vh;
   height: auto;
   transition: background-color 1s 0s,color 1s 0s;
 }
@@ -24,21 +24,21 @@ header:hover{
 
 .titulo{
   text-decoration: underline;
-  font-size: 25px;
+  font-size: 1.3em;
 }
 
 /* NAV*/
 nav{
   background-color: #edc132;
   padding: 2px;
-  font-size: 20px;
+  font-size: 1.3em;
   padding: 10px;
 }
 
 /*BOTON */
 .btn{
-  width: 100px;
-  height: 25px;
+  width: 7.5vw;
+  height: 4vh;
   margin-left: 20px;
   background: grey;
   border: 1px solid;
@@ -59,13 +59,13 @@ footer{
 }
 
 footer img{
-  width: 50px;
-  height: 50px;
+  width: 8vh;
+  height: 4vw;
   padding: 5px;
 }
 
 /* ENLACES */
 nav a:hover{
-  font-size: 23px;
+  font-size: 1.2em;
   background-color: #348feb;
 }
