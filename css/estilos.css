@@ -46,7 +46,10 @@ main{
 }
 
 .imagen{
+  height: 35vh;
+  width: 20vw;
   padding: 1%;
+  border: 1px solid black;
 }
 
 .imagen img{
