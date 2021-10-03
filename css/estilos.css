@@ -48,14 +48,14 @@ main{
 
 .imagen{
   height: 35vh;
-  width: 25vw;
+  width: 35vw;
   padding: 1%;
   border: 1px solid black;
 }
 
 .imagen img{
   height: 30vh;
-  width: 20vw;
+  width: 30vw;
   transition:margin 1.5s 0s;
 }
 
