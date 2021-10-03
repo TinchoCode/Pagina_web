@@ -46,6 +46,8 @@ main{
 }
 
 .imagen{
+  height: 30vh;
+  width: 13vw;
   padding: 1%;
 }
 
