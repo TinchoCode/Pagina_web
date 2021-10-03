@@ -45,9 +45,6 @@ main{
   font-family: "delight candles";
 }
 
-.dParra{
-  width: 20vw;
-}
 
 .imagen{
   height: 35vh;
@@ -58,7 +55,7 @@ main{
 
 .imagen img{
   height: 30vh;
-  width: 13vw;
+  width: 20vw;
   transition:margin 1.5s 0s;
 }
 
