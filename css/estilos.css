@@ -30,7 +30,7 @@ header:hover{
 
 .titulo{
   text-decoration: underline;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 /*MAIN Y SUS PARTES*/
@@ -50,6 +50,8 @@ main{
 }
 
 .imagen img{
+  height: 30vh;
+  width: 13vw;
   transition:margin 1.5s 0s;
 }
 
@@ -87,7 +89,6 @@ nav ul li ul li {/*ESTILO DE LA LISTA DE ENLACES*/
   float: left;
   width: 50%;
   height: 72vh;
-  font-family: 'Teko', sans-serif;
 }
 
 .asi1{
@@ -95,13 +96,15 @@ nav ul li ul li {/*ESTILO DE LA LISTA DE ENLACES*/
   width: 49%;
   float: left;
   height: 72vh;
-  font-family: 'Teko', sans-serif;
   overflow: scroll;
 }
 
 p, li{
   color: #202745;
   text-align: left;
+}
+section ul li, aside ol li{
+  font-family: 'Teko', sans-serif;
 }
 
 /* SEGUNDO SECTION  Y SEGUNDO ASIDE*/
@@ -137,7 +140,7 @@ footer{
 }
 
 footer img{
-  width: 8vh;
+  width: 4.5vh;
   height: 4vw;
   padding: 5px;
 }
@@ -151,7 +154,7 @@ footer img{
 
 .wasap img{
   width: 8vh;
-  height: 4vw;
+  height: 4.6vw;
 }
 
 .wasap img:hover{
