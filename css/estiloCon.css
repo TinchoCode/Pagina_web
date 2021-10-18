@@ -54,15 +54,22 @@ nav{
 
 /* FOOTER Y SUS PARTES*/
 footer{
+  display: flex;
   background-color: grey;
   clear: both;
 }
 
 footer img{
-  width: 4.5vh;
+  height: 100%;
+  width: 100%;
+}
+
+.fImg{/*Esta es la clase de los contenedores de las img en el footer*/
+  width: 8vh;
   height: 4vw;
   padding: 5px;
 }
+
 
 /* ENLACES */
 nav a:hover{

@@ -7,6 +7,9 @@
 body{
   background-color: #db5f25;
 }
+@media (min-width: 992px) and (max-width: 1199px) {
+  body { background-color: red; }
+}
 
 /* HEADER Y TITULOS*/
 header{
@@ -33,6 +36,12 @@ header:hover{
   font-size: 1.5em;
 }
 
+@media (min-width: 576px) and (max-width: 767px) {
+  .titulo{
+    text-decoration: underline lightblue;
+    font-size: 2em;
+  }
+}
 /*MAIN Y SUS PARTES*/
 main{
   background-color: #43eb34;
@@ -46,24 +55,30 @@ main{
 }
 
 
-.imagen{
-  height: 35vh;
-  width: 25vw;
-  padding: 1%;
+@media (max-width:767px) {
+  .imagen{
+    height: 35vh;
+    width: 25vw;
+    padding: 1%;
+  }
+
+  .imagen img{
+    height: 30vh;
+    width: 20vw;
+    transition:margin 1.5s 0s;
+  }
+
+  .imagen img:hover{
+    margin: 10px;
+  }
 }
 
-.imagen img{
-  height: 30vh;
-  width: 20vw;
-  transition:margin 1.5s 0s;
+@media (min-width:768px) {
+  .imagen{display: none;}
 }
-
-.imagen img:hover{
-  margin: 10px;
-}
-
 /* NAV y sus PARTES*/
 nav{
+  display: flex;
   background-color: #edc132;
   padding: 2px;
   font-size: 1.3em;
@@ -87,9 +102,10 @@ nav ul li ul li {/*ESTILO DE LA LISTA DE ENLACES*/
 
 
 /*PRIMER SECTION Y PRIMER ASIDE*/
+
+.S1A1{display: flex; flex-direction: row;}/*Contenedor de section1 y aside1*/
 .sec1{
   background-color: #6e460b;
-  float: left;
   width: 50%;
   height: 72vh;
 }
@@ -97,10 +113,10 @@ nav ul li ul li {/*ESTILO DE LA LISTA DE ENLACES*/
 .asi1{
   background-color: #6e460b;
   width: 49%;
-  float: left;
   height: 72vh;
   overflow: scroll;
 }
+
 
 p, li{
   color: #202745;
@@ -110,11 +126,18 @@ section ul li, aside ol li{
   font-family: 'Teko', sans-serif;
 }
 
+@media (max-width: 767px) {
+  section ul li, aside ol li{
+    font-family: "delight candles";
+    font-size: 1.3em;
+  }
+}
+
 /* SEGUNDO SECTION  Y SEGUNDO ASIDE*/
+.S2A2{display: flex; flex-direction: row;}/*Contenedor de section2 y aside2*/
 .sec2{
   background-color: tomato;
   width: 50%;
-  float: left;
   height: 96vh;
   overflow: scroll;
 }
@@ -122,7 +145,6 @@ section ul li, aside ol li{
 .asi2{
   background-color: tomato;
   width: 49%;
-  float: left;
   height: 96vh;
 }
 
@@ -138,12 +160,18 @@ audio{
 
 /* FOOTER Y SUS PARTES*/
 footer{
+  display: flex;
   background-color: grey;
   clear: both;
 }
 
 footer img{
-  width: 4.5vh;
+  height: 100%;
+  width: 100%;
+}
+
+.fImg{/*Esta es la clase de los contenedores de las img en el footer*/
+  width: 8vh;
   height: 4vw;
   padding: 5px;
 }
