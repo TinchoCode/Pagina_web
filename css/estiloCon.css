@@ -1,10 +1,10 @@
 body{
   background-color: #db5f25;
 }
+
 @media (min-width: 992px) and (max-width: 1199px) {
   body { background-color: red; }
 }
-
 /* HEADER Y TITULOS*/
 header{
   background-color: black;

@@ -158,6 +158,14 @@ audio{
   max-width: 15vw;
 }
 
+/* SECTION DE LAS CARDS*/
+.cartitas{
+  display: flex;
+  flex-direction: row;
+  padding: 0.2%;
+}
+
+
 /* FOOTER Y SUS PARTES*/
 footer{
   display: flex;
