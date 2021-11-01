@@ -7,20 +7,47 @@
     <meta name="keywords" content="Comida, Corrientes, Tradiciones">
     <meta name="author" content="Acevedo Martin">
     <meta name="viewport" content="witdh=device-witdh, initial-scale=1.0">
+    <script type="text/javascript">
+  //    alert( "¿Esta dispuesto a ver el mejor sitio del mundo mundial?.")
+
+      function mostrar(){
+        alert("Nombre: Martin - Apellido: Acevedo - Edad: 19 - Contacto: juanchopelol14@gmail.com")
+      }
+
+      function cecl(clase, elemento, color, letra){
+        elemento = document.getElementsByClassName(clase);
+        for (var i = 0; i < elemento.length; i++) {
+          elemento[i].style.background = color;
+          elemento[i].style.color = letra;
+        }
+      }
+      function disVisual(){
+        document.body.style.background = "grey";
+        cecl("mein", "m", "black", "lightblue");
+        cecl("navegador", "nave", "black", "lightblue");
+        cecl("listas", "l", "black", "lightblue");
+        cecl("S1A1", "sec", "grey", "lightblue");
+        cecl("S2A2", "sec2", "black", "lightblue");
+        cecl("card-body", "c", "black", "lightblue");
+        cecl("pie", "p", "black", "lightblue");
+      }
+
+    </script>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
     </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
   </head>
+
   <body>
   <header><h1 id="tituloP"> Mbaipy: Comida tipica de Corrientes</h1></header>
 
-  <nav>
+  <nav class="navegador">
     <ul>
       <li>
         <h2 class="titulo"> Enlaces </h2>
-        <ul>
+        <ul class="listas">
           <li> <a href="https://www.recetasgratis.net/receta-de-mbeju-o-mbeyu-9410.html" target="_blank"> Mbeyu</a></li>
           <li> <a href="https://www.xrecetas.com/chipa-quesu-correntino/" target="_blank"> Chipa Quesu</a></li>
           <li> <a href="https://www.xrecetas.com/mbutuca/" target="_blank"> Mbutuca</a></li>
@@ -28,10 +55,11 @@
         </ul>
       </li>
       <li>  <a href="contacto.html"><h3> Contacto</h3></a></li>
+      <li> <button onclick="disVisual()">Presionar por discapacidad visual</button> </li>
     </ul>
   </nav>
 
-<main>
+<main class="mein">
   <div class="imagen"> <img src="imagenes/mbaipy.jpg" alt="mbaipy"> </div>
   <div class="dParra"><p class="parrafo">El mbaipy, también conocido como mbaipí y mbaipú es un plato típico de la
     gastronomía guaraní; y en la actualidad es muy común en todo el Paraguay y en el noroeste de Argentina.
@@ -139,10 +167,11 @@
 </div>
 </div>
 
-<footer>
+<footer class="pie">
   <div class="fImg"><a href="https://www.facebook.com" target="_blank"> <img src="imagenes/face.jpg" alt="facebook"></a></div>
   <div class="fImg"><a href="https://www.instagram.com" target="_blank"> <img src="imagenes/insta.jpg" alt=""></a></div>
   <div class="fImg"><a href="https://twitter.com" target="_blank"> <img src="imagenes/twitter.jpg" alt=""></a></div>
+  <div> <button onclick="mostrar()">Ver los datos del Creador</button> </div>
 </footer>
 
 <div class="wasap"> <a href="https://wa.me/541124733622" target="_blank"> <img src="imagenes/wasap.jpg" alt="whatsapp"></a></div>

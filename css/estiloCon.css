@@ -38,11 +38,18 @@ nav{
   padding: 10px;
 }
 
+/* FORMULARIO*/
+
+form{
+height: 29em;
+}
+
 /*BOTON */
 .btn{
   width: 7.5vw;
   height: 4vh;
   margin-left: 20px;
+  padding: 0.1em;
   background: grey;
   border: 1px solid;
   transition: background-color,margin 1.5s ease-out;
@@ -58,9 +65,9 @@ nav{
 /* FOOTER Y SUS PARTES*/
 footer{
   display: flex;
-  background-color: grey;
   clear: both;
 }
+.pie{background-color: grey;}
 
 footer img{
   height: 100%;
@@ -73,6 +80,10 @@ footer img{
   padding: 5px;
 }
 
+div button{
+  height: 100%;
+  width: 100%;
+}
 
 /* ENLACES */
 nav a:hover{
